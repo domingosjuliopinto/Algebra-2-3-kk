@@ -6,7 +6,6 @@ body{
 .main-content{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     background-color: salmon;
     text-align: center;
     border-radius: 10px;
@@ -16,7 +15,6 @@ body{
 .main-content1,.main-content2,.main-content3{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     background-color: salmon;
     text-align: center;
     border-radius: 10px;
@@ -33,8 +31,8 @@ input,button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
 }
-
-/* Responsive for mobile 
+/*
+ Responsive for mobile
 
 @media only screen and (min-width:450px) {
  
@@ -44,9 +42,9 @@ input,button{
     }
 }
 
-Responsive for Tabs 
+Responsive for Tabs
 
-@media only screen and (min-width:700px) {
+@media only screen and (width>=700px) and (width < 1505px) {
 
     .main-content1,.main-content2,.main-content3 {
         width: 50%;
@@ -54,8 +52,8 @@ Responsive for Tabs
     }
 
 }
-
- Responsive for PC
+*/
+ /*Responsive for PC
 
 @media only screen and (min-width:1000px) {
     .main-content1,.main-content2,.main-content3 {
@@ -66,7 +64,10 @@ Responsive for Tabs
 */
 /* Responsive for XL PC */
 
-@media only screen and (min-width:1505px) {
+@media only screen and (width>=1505px) {
+    .main-content{
+        width: 99%;
+    }
     .main-content1,.main-content2,.main-content3 {
         width: 32.4%;
         margin: auto;

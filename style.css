@@ -31,37 +31,68 @@ input,button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
 }
-/*
- Responsive for mobile
 
-@media only screen and (min-width:450px) {
+/*Responsive for mobile*/
+
+@media only screen and (width < 700px) {
  
-    .main-content1,.main-content2,.main-content3 {
-        width: 100%;
-        margin: auto;
+    .main-content h1{
+        font-size: 55px;
+    }
+
+    .main-content1 h2{
+        font-size: 45px;
+    }
+    .main-content1 h1, input, button{
+        font-size: 55px;
+    }
+    .main-content2 h2{
+        font-size: 45px;
+    }
+    .main-content2 h1, input, button{
+        font-size: 55px;
+    }
+    .main-content3 h2{
+        font-size: 45px;
+    }
+    .main-content3 h1, input, button{
+        font-size: 55px;
     }
 }
 
-Responsive for Tabs
 
-@media only screen and (width>=700px) and (width < 1505px) {
+/*Responsive for Tabs*/
 
-    .main-content1,.main-content2,.main-content3 {
-        width: 50%;
-        margin: auto;
-    }
+@media only screen and (width >= 700px) and (width < 1505px) {
+
+   .main-content h1{
+    font-size: 45px;
+   }
+
+   .main-content1 h2{
+    font-size: 35px;
+   }
+   .main-content1 h1, input, button{
+    font-size: 45px;
+   }
+
+   .main-content2 h2{
+    font-size: 35px;
+   }
+   .main-content2 h1, input, button{
+    font-size: 45px;
+   }
+
+   .main-content3 h2{
+    font-size: 35px;
+   }
+   .main-content3 h1, input, button{
+    font-size: 45px;
+   }
 
 }
-*/
- /*Responsive for PC
 
-@media only screen and (min-width:1000px) {
-    .main-content1,.main-content2,.main-content3 {
-        margin: auto;
-    }
-	
-}
-*/
+ 
 /* Responsive for XL PC */
 
 @media only screen and (width>=1505px) {

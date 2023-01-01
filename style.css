@@ -32,36 +32,7 @@ input,button{
     font-size: 30px;
 }
 
-/*Responsive for mobile*/
-
-@media only screen and (width < 700px) {
- 
-    .main-content h1{
-        font-size: 55px;
-    }
-
-    .main-content1 h2{
-        font-size: 45px;
-    }
-    .main-content1 h1, input, button{
-        font-size: 55px;
-    }
-    .main-content2 h2{
-        font-size: 45px;
-    }
-    .main-content2 h1, input, button{
-        font-size: 55px;
-    }
-    .main-content3 h2{
-        font-size: 45px;
-    }
-    .main-content3 h1, input, button{
-        font-size: 55px;
-    }
-}
-
-
-/*Responsive for Tabs*/
+/*Responsive for Mobile and Tabs*/
 
 @media only screen and (width >= 700px) and (width < 1505px) {
 

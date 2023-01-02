@@ -20,59 +20,30 @@ body{
     border-radius: 10px;
     border: blanchedalmond 5px solid;
     margin-bottom: 20px; 
+    width: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-input,button{
-    margin-bottom: 2%;
-    padding: 15px;
-    border-radius: 15px;
-    text-align: center;
-    border: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-}
-
-/*Responsive for Mobile and Tabs*/
-
-@media only screen and (width >= 700px) and (width < 1505px) {
-
-   .main-content h1{
-    font-size: 45px;
-   }
-
-   .main-content1 h2{
-    font-size: 35px;
-   }
-   .main-content1 h1, input, button{
-    font-size: 45px;
-   }
-
-   .main-content2 h2{
-    font-size: 35px;
-   }
-   .main-content2 h1, input, button{
-    font-size: 45px;
-   }
-
-   .main-content3 h2{
-    font-size: 35px;
-   }
-   .main-content3 h1, input, button{
-    font-size: 45px;
-   }
-
-}
-
- 
-/* Responsive for XL PC */
-
-@media only screen and (width>=1505px) {
-    .main-content{
-        width: 99%;
-    }
+@media only screen and (width>=764px) {
     .main-content1,.main-content2,.main-content3 {
-        width: 32.4%;
+        width: 31.4%;
         margin: auto;
         display: inline-block;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (width>=1000px) {
+    .main-content1,.main-content2,.main-content3 {
+        width: 31.7%;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (width>=1505px) {
+    .main-content1,.main-content2,.main-content3 {
+        width: 32.4%;
+        font-size: 30px;
     }
 }

@@ -9,6 +9,7 @@ ans = a*b
 
 document.getElementById("num1").innerHTML = a;
 document.getElementById("num2").innerHTML = b;
+document.getElementById("num1x2").innerHTML = ans;
 
 console.log(a);
 console.log(b);
@@ -17,11 +18,13 @@ console.log(ans);
 // Generating question for finding Square-root of a number from 1 to 100
 c = randomNumber(100,1)
 document.getElementById("num3").innerHTML = c*c;
+document.getElementById("sqr").innerHTML = c;
 
 console.log(c);
 
 // Generating question for finding Cube-root of a number from 1 to 100
 d = randomNumber(100,1)
 document.getElementById("num4").innerHTML = d*d*d;
+document.getElementById("cbr").innerHTML = d;
 
 console.log(d);

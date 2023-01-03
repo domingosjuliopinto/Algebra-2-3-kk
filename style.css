@@ -56,6 +56,19 @@ body{
     transform: rotateY(180deg);
   }
 
+  @media only screen and (width<764px) {
+    .main-content-card-front,.main-content-card-back{
+        font-size: 22px;
+    }
+    
+    .main-content-card-front h2{
+        margin-top: 75px;
+    }
+    .main-content-card-back h2{
+        margin-top: 75px;
+    }
+  }
+
 @media only screen and (width>=764px) {
     .main-content-card{
         width: 31.5%;

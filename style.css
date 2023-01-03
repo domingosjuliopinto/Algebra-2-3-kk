@@ -56,6 +56,12 @@ body{
     transform: rotateY(180deg);
   }
 
+  h5{
+    text-align: center;
+    color: white
+    
+  }
+
   @media only screen and (width<764px) {
     .main-content-card-front,.main-content-card-back{
         font-size: 22px;

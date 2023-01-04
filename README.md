@@ -11,5 +11,8 @@ This is a live website that will randomly generate mathematical questions, one f
 ![](screenshots/Capture4.jpeg)
 ![](screenshots/Capture5.jpeg)
 
+## Notes
+Background picture taken from a <a href="https://www.pexels.com/photo/red-background-with-123456789-text-overlay-1329296/">photo by Magda Ehlers from Pexels</a>
+
 ## Reference
 <a href="https://www.w3schools.com/howto/howto_css_flip_card.asp">Flip Card</a>
